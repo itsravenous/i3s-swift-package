@@ -1,11 +1,11 @@
-# swift-cpp-package
-Playground project for writing Swift packages which use C++ code. Based on instructions at http://ankit.im/swift/2016/05/21/creating-objc-cpp-packages-with-swift-package-manager/#a-package-with-cpp-and-swift
+# I3S Classic Swift Package
+A Swift package wrapping the original C++ code for the I3S classic algorithm.
 
-# Prerequesites
+# Prerequisites
 - [Swift 4](https://swift.org/download/)
 
 # Build
 `swift build`
 
-# Run
-`.build/debug/swift-exec` (compiled from [Sources/swift-exec/main.swift](https://github.com/itsravenous/swift-cpp-package/blob/master/Sources/swift-exec/main.swift))
+# Run sample executable
+`.build/debug/i3s-swift-exec` (compiled from `Sources/i3s-swift-exec/main.swift`)
