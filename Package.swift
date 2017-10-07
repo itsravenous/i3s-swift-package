@@ -5,7 +5,7 @@ let package = Package(
     name: "i3s",
     products: [
       .executable(name: "i3s-c", targets: ["i3s-c"]),
-      .library(name: "i3s-swift", targets: ["i3s-swift"]),
+      .library(name: "I3sSwift", targets: ["i3s-swift"]),
       .executable(name: "i3s-swift-exec", targets: ["i3s-swift-exec"]),
     ],
     targets: [
